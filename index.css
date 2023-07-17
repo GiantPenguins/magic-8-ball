@@ -6,8 +6,14 @@
   height: 100vh;
 }
 
+
+body {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 h1 {
   text-align: center;
+  color: rgba(255, 255, 255, 0.87);
 }
 
 #result {
@@ -15,12 +21,25 @@ h1 {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
+  color: rgba(255, 255, 255, 0.87);
 }
 
 #shake-button {
   margin-top: 20px;
   padding: 10px 20px;
   font-size: 18px;
-  border-radius: 5px;
+  border-radius: 15px;
   cursor: pointer;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+
+
+@media (max-width: 600px) {
+  #shake-button {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
