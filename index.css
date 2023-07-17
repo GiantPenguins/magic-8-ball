@@ -1,25 +1,26 @@
-.mainContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
-header {
-    text-align: center;
+h1 {
+  text-align: center;
 }
 
 #result {
-    margin-top: 24px;
-    font-size: 2rem;
-    text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
 }
 
-#play{
-margin-top: 24px;
-padding: 16px 24px;
-font-size: 1.5rem;
-border-radius: 8px;
-cursor: pointer;    
+#shake-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
 }
